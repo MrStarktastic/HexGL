@@ -42,7 +42,7 @@ class Utils
       vertexShader: shader.vertexShader
       uniforms: uniforms
       lights: true
-      fog: false
+      fog: true
     }
 
     material = new THREE.ShaderMaterial(parameters)
