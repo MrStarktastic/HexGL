@@ -367,7 +367,7 @@ bkcore.hexgl.tracks.Cityscape = {
 
 		var scene = new THREE.Scene();
 		scene.add( camera );
-		scene.add( new THREE.AmbientLight( ambient ) );
+		scene.add(new THREE.AmbientLight(ambient));
 		scene.fog = new THREE.Fog(0x999999, 100, 500);
 
 		// SUN
